@@ -1,0 +1,106 @@
+body {
+    background-color: #191919;
+    color: white !important;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.game-row {
+    display: flex;
+    justify-content: center;
+}
+
+.game-item {
+    height: 200px;
+    width: 200px;
+    background-color: #635f5f;
+    display: inline-block;
+    margin: 10px;
+}
+
+.game-item:hover {
+    background-color: #928e8e;
+}
+
+.game-container {
+    position: relative;
+}
+
+.game-sad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+}
+
+.game-happy {
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    display: flex;
+}
+
+.game-happy img {
+    height: 80%;
+    width: 80%;
+}
+
+.game-sad img {
+    height: 80%;
+    width: 80%;
+}
+
+.game-click > div {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2em;
+}
+
+.game-click {
+    cursor: pointer;
+}
+
+.click-logo {
+    width: 90px;
+    height: 30px;
+    margin-left: 52px;
+}
+
+.heart-container {
+    display: flex;
+    justify-content: center;
+}
+
+.heart-container > img {
+    height: 80px;
+    width: 80px;
+}
+
+.screen-end {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0.9;
+    background: #635f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.screen-end-win {
+    visibility: hidden;
+    font-size: 12em;
+    color: #26b426;
+}
+
+.screen-end-lose {
+    visibility: hidden;
+    font-size: 12em;
+    color: #b42626;
+}
